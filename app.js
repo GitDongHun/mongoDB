@@ -60,6 +60,6 @@ app.post("/api/books", function (req, res) {
     result: "(결과)잘 들어왔습니다. 이제 mongoDB에 넣는 함수를 mongoose를 이용해서 넣어주세요",
     name: book.title,
     author: book.author,
-    published_date: book.published_date//book.published_date,
+    published_date: book.published_date
   });
 });
